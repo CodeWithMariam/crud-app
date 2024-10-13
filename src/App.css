@@ -1,38 +1,134 @@
-.App {
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff !important; 
+  font-family: 'Arial', sans-serif; 
+  margin: 0; 
+}
+
+h1 {
+  color: #2D3748; 
+  margin-bottom: 30px; 
+}
+
+.heading{
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+.formPage{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-label {
+  font-weight: bold; 
+  color: #4A5568; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%; 
+  padding: 10px;
+  border: 1px solid #E2E8F0;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #5A67D8; 
+  outline: none; 
+}
+
+/* Button styling */
+button {
+  background-color: #5A67D8; 
   color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px !important;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: 20px !important;
+  margin-bottom: -10px !important;
+}
+table {
+  width: 100% !important; 
+  border-collapse: collapse; 
 }
 
-.App-link {
-  color: #61dafb;
+th, td {
+  text-align: center !important;
+  padding: 12px; 
+  border-bottom: 1px solid #E2E8F0; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+th {
+  background-color: #F7FAFC; 
+  color: #2D3748; 
+  text-align: center !important;
+}
+/* Action buttons in table */
+.btn-danger, .btn-success {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  gap: 10px !important; 
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+ 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .table-container {
+    margin-top: 20px; 
   }
 }
+.logout-btn{
+  background-color: #c82333;
+  color: #ffff;
+  
+}
+.logout-btn:hover{
+  background-color: #af1d2c;
+}
+.add-btn{
+  margin-right: 16px;
+  background-color: #007bff;
+  color: #ffff;
+  
+}
+.add-btn:hover{
+  background-color: #0056b3;
+}
+/* .btnCancel{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: white !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 10px 20px !important;
+  border-radius: 5px!important;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: -500px!important;
+  margin-bottom: -50px!important;
+  margin: auto !important;
+} */
