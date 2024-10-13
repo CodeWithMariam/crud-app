@@ -1,22 +1,13 @@
 <h1 align="center">
-  <a href="https://CodeWithMariam.github.io/crud-app
-">
+  <a href="">
     CRUD App
   </a>
 </h1>
-
 <p align="center">
-  <a href="https://github.com/CodeWithMariam/crud-app/actions?query=workflow%3A%22Node.js+CI%22">
-    <img src="https://github.com/CodeWithMariam/crud-app/workflows/Node.js%20CI/badge.svg" alt="Node.js CI" />
-  </a>
-  <a href="https://github.com/CodeWithMariam/crud-app/releases">
-    <img src="https://img.shields.io/github/v/release/CodeWithMariam/crud-app" alt="GitHub Release (latest by date)" />
-  </a>
-  <a href="https://github.com/CodeWithMariam/crud-app/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/CodeWithMariam/crud-app" alt="License" />
-  </a>
+  A simple and beautiful <a href="https://www.codecademy.com/articles/what-is-crud">CRUD</a> application built with <a href="https://reactjs.org">React</a>.
 </p>
 
+![crud-app](./public/image.jpg)
 <p align="center">
   A simple and beautiful <a href="https://www.codecademy.com/articles/what-is-crud">CRUD</a> application built with <a href="https://reactjs.org">React</a>.
 </p>
