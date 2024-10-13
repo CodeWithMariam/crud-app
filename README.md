@@ -20,7 +20,7 @@
 To get a local copy of the code, clone it using git:
 
 ```
-git clone https://github.com/SafdarJamal/crud-app.git
+git clone https://github.com/CodeWithMariam/crud-app.git
 cd crud-app
 ```
 
@@ -49,7 +49,7 @@ and then you can open http://localhost:3000 to view it in the browser.
 
 ## Credits
 
-CRUD App is built and maintained by [Safdar Jamal](https://CodeWithMariam.github.io).
+CRUD App is built and maintained by [Mariam Kareem](https://CodeWithMariam.github.io).
 
 ## License
 
